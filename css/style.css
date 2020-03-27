@@ -1,0 +1,217 @@
+* {
+  font-family: 'Lato', sans-serif; }
+
+p {
+  margin: 0; }
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active,
+.form-control:focus {
+  outline: 0px !important;
+  box-shadow: none !important;
+  border: 1px solid #ced4da !important; }
+
+input[type=number]:hover, input[type=number] {
+  border: 1px solid #ced4da; }
+
+#nosac a {
+  color: #f7f7f7;
+  font-size: 1.2rem; }
+#nosac #ispisListe1 a {
+  border-radius: 3px; }
+  #nosac #ispisListe1 a:hover {
+    transition: all .5s;
+    background-color: #f0321d; }
+
+#popUp {
+  margin-bottom: 70px;
+  padding: 10px 50px;
+  background-color: green;
+  display: none; }
+  #popUp p {
+    font-size: 1.3rem; }
+    @media (max-width: 1200px) {
+      #popUp p {
+        font-size: calc(1.255rem + 0.06vw) ; } }
+
+#hamburger {
+  color: #f7f7f7;
+  font-size: 0.8rem;
+  border: 1px solid #f7f7f7;
+  padding: 10px;
+  border-radius: 5px; }
+
+.tamnaPozadina {
+  background-color: #181717d8;
+  transition: 0.5s all; }
+
+.crvena {
+  background-color: #f0321d !important; }
+
+.pozadina {
+  background-image: url("../img/pozadina.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px; }
+
+.podnaslov {
+  margin-top: 100px;
+  font-size: 2rem; }
+  @media (max-width: 1200px) {
+    .podnaslov {
+      font-size: calc(1.325rem + 0.9vw) ; } }
+
+.naslov {
+  font-size: 4rem; }
+  @media (max-width: 1200px) {
+    .naslov {
+      font-size: calc(1.525rem + 3.3vw) ; } }
+
+.row {
+  margin: 0px; }
+  .row .medjunaslov {
+    font-size: 3rem;
+    margin: 25px 0px; }
+    @media (max-width: 1200px) {
+      .row .medjunaslov {
+        font-size: calc(1.425rem + 2.1vw) ; } }
+
+.horizontal {
+  width: 15%;
+  height: 1px;
+  background-color: grey; }
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none; }
+
+#dugmad {
+  padding: 0px 70px; }
+  #dugmad .aktivacija {
+    border: 2px solid #f0321d;
+    color: #f0321d;
+    padding: 12px 10px;
+    font-weight: bold;
+    width: 150px;
+    font-size: 1.2rem; }
+    #dugmad .aktivacija:hover {
+      transition: .5s all;
+      background-color: #f0321d;
+      color: #f7f7f7; }
+    #dugmad .aktivacija:focus {
+      transition: .5s all;
+      background-color: #f0321d;
+      color: #f7f7f7; }
+
+.filmNaslov {
+  font-size: 1.3rem;
+  color: black; }
+  @media (max-width: 1200px) {
+    .filmNaslov {
+      font-size: calc(1.255rem + 0.06vw) ; } }
+  .filmNaslov:hover {
+    transition: .5s all;
+    color: #f0321d;
+    text-decoration: none; }
+
+.film img:hover {
+  transition: .5s;
+  filter: brightness(50%); }
+
+.buy {
+  font-size: 1.5rem;
+  color: #f0321d; }
+  @media (max-width: 1200px) {
+    .buy {
+      font-size: calc(1.275rem + 0.3vw) ; } }
+  .buy:hover {
+    transition: .5s all;
+    color: black;
+    text-decoration: none; }
+
+.price {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bold; }
+  @media (max-width: 1200px) {
+    .price {
+      font-size: calc(1.275rem + 0.3vw) ; } }
+
+#subscribe {
+  background-image: url("../img/subscribe2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  #subscribe #btnSend {
+    background-color: #f0321d;
+    padding: 6px 0px;
+    width: 100%; }
+    #subscribe #btnSend:hover {
+      background-color: transparent;
+      border: 1px solid #f0321d;
+      transition: .4s all; }
+  #subscribe #tbsubscribe {
+    background-color: rgba(206, 204, 204, 0.13);
+    color: white; }
+    #subscribe #tbsubscribe::placeholder {
+      color: white; }
+
+#footerUl li a:hover {
+  color: #f0321d !important; }
+
+#documentation {
+  color: white; }
+  #documentation:hover {
+    color: #f0321d;
+    text-decoration: none !important; }
+
+.pogresanSubscribe {
+  border: 1px solid #f0321d;
+  color: black !important;
+  background-color: rgba(206, 204, 204, 0.356) !important; }
+  .pogresanSubscribe:hover {
+    border: 1px solid #f0321d !important; }
+  .pogresanSubscribe::placeholder {
+    color: red !important; }
+
+.opis {
+  font-size: 0.9rem; }
+
+.noProducts {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 100px; }
+  @media (max-width: 1200px) {
+    .noProducts {
+      font-size: calc(1.325rem + 0.9vw) ; } }
+
+#tabela a {
+  text-decoration: none;
+  color: black; }
+  #tabela a:hover {
+    color: #f0321d; }
+
+.hover:hover {
+  background-color: #181717d8 !important;
+  transition: 0.5s all !important; }
+
+.ikonice {
+  color: #f0321d !important;
+  font-size: 1.4rem; }
+  @media (max-width: 1200px) {
+    .ikonice {
+      font-size: calc(1.265rem + 0.18vw) ; } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,14 @@
+@media only screen and (max-width: 576px) {
+  .pogresanSubscribe::placeholder {
+    font-size: 0.7rem; }
+
+  .opis {
+    font-size: 1rem; } }
+@media only screen and (min-width: 992px) {
+  .film {
+    height: auto; } }
+@media only screen and (min-width: 1200px) {
+  .opis {
+    font-size: 1rem; } }
+
+/*# sourceMappingURL=responsive.css.map */

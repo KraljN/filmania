@@ -1,0 +1,228 @@
+@import'rfs_partial.scss';
+$crvena:#f0321d;
+$bela:#f7f7f7;
+*{
+    font-family: 'Lato', sans-serif;
+}
+p{
+    margin: 0;
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active,
+.form-control:focus
+{
+    outline:0px !important;
+    box-shadow: none !important;
+    border: 1px solid #ced4da!important;
+}
+input[type=number]:hover, input[type=number]{
+    border: 1px solid #ced4da;
+}
+#nosac{
+    a{
+        color: $bela;
+        @include font-size(1.2rem);
+    }
+    #ispisListe1{
+        a{
+            border-radius: 3px;
+            &:hover{
+                transition: all .5s;
+                background-color: $crvena;
+            }
+        }
+    }
+
+}
+#popUp{
+    margin-bottom: 70px;
+    padding: 10px 50px;
+    background-color: green;
+    display: none;
+    p{
+        @include font-size(1.3rem);
+    }
+}
+#hamburger{
+    color: $bela;
+    @include font-size(.8rem);
+    border: 1px solid $bela;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.tamnaPozadina{
+    background-color: #181717d8;
+    transition: 0.5s all;
+}
+.crvena{
+    background-color: $crvena!important;
+}
+.pozadina{
+    background-image: url('../img/pozadina.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:550px;
+}
+.podnaslov{
+    margin-top: 100px;
+    @include font-size(2rem);
+}
+.naslov{
+    @include font-size(4rem);
+
+}
+.row{
+    margin: 0px;
+    .medjunaslov{
+        @include font-size(3rem);
+        margin: 25px 0px;
+    }
+}
+.horizontal{
+    width: 15%;
+    height: 1px;
+    background-color: grey;
+}
+.btn:focus, .btn:active{
+    outline: none !important;
+    box-shadow: none;
+}
+#dugmad{
+    padding: 0px 70px;
+    .aktivacija{
+        border: 2px solid $crvena;
+        color: $crvena;
+        padding: 12px 10px;
+        font-weight: bold;
+        width: 150px;
+        @include font-size(1.2rem);
+        &:hover{
+            transition: .5s all;
+            background-color: $crvena;
+            color: $bela;
+        }
+        &:focus{
+                transition: .5s all;
+                background-color: $crvena;
+                color: $bela;
+        }
+    }
+}
+.filmNaslov{
+    @include font-size(1.3rem);
+    color: black;
+    &:hover{
+        transition: .5s all;
+        color: $crvena;
+        text-decoration:none;
+    }
+}
+.film{
+    img:hover{
+        transition: .5s;
+        filter: brightness(50%);
+    }
+}
+.buy{
+    @include font-size(1.5rem);
+    color: $crvena;
+    &:hover{
+        transition: .5s all;
+        color: black;
+        text-decoration:none;
+    }
+}
+.price{
+    color: black;
+    @include font-size(1.5rem);
+    font-weight: bold;
+}
+#subscribe{
+    background-image: url('../img/subscribe2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    #btnSend{
+        background-color: $crvena;
+        padding: 6px 0px;
+        width: 100%;
+        &:hover{
+            background-color: transparent;
+            border: 1px solid $crvena;
+            transition: .4s all;
+        }
+    }
+    #tbsubscribe{
+        background-color: rgba(206, 204, 204, 0.13);
+        color: white;
+        &::placeholder{
+            color: white;
+        }
+    }
+}
+#footerUl{
+    li{
+        a:hover{
+            color: $crvena!important;
+        }
+    }
+}
+#documentation{
+    color: white;
+    &:hover{
+        color: $crvena;
+        text-decoration: none!important;
+    }
+}
+.pogresanSubscribe{
+    &:hover{
+        border: 1px solid $crvena!important;  
+    }
+    border: 1px solid $crvena;
+    color: black!important;
+    background-color: rgba(206, 204, 204, 0.356)!important;
+    &::placeholder{
+        color: red!important;
+    }
+}
+.opis{
+    @include font-size(.9rem);
+}
+.noProducts{
+    @include font-size(2rem);
+    text-align: center;
+    margin-bottom: 100px;
+}
+#tabela{
+    a{
+        text-decoration: none;
+        color: black;
+        &:hover{
+            color: $crvena;
+        }
+    }
+}
+.hover{
+    &:hover{
+        background-color: #181717d8 !important;
+        transition: .5s all!important;
+    }
+}
+.ikonice{
+    color: $crvena!important;
+    @include font-size(1.4rem);
+}

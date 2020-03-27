@@ -1,0 +1,18 @@
+[
+    {
+        "href":"https://www.facebook.com",
+        "izgled":"fab fa-facebook-f"
+    },
+    {
+        "href":"https://twitter.com",
+        "izgled":"fab fa-twitter"
+    },
+    {
+        "href":"https://www.pinterest.com",
+        "izgled":"fab fa-pinterest-p"
+    },
+    {
+        "href":"https://www.instagram.com",
+        "izgled":"fab fa-instagram"
+    }
+]

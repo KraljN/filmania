@@ -1,0 +1,169 @@
+[    {
+    "id":1,
+    "naziv":"Bloodshot",
+    "videoSrc":"https://www.youtube.com/embed/vOUVVDWdXbo",
+    "trajanje": 112,
+    "zanr":{
+        "id":1,
+        "naziv":"Drama"
+    },
+    "godinaIzlaska":"2020",
+    "drzava":"USA",
+    "opis":"Ray Garrison, a slain soldier, is re-animated with superpowers.",
+    "cena":"31.00",
+    "brojZvezdica":0,
+    "slika":
+    {
+        "naziv":"bloodshot.jpg",
+        "alt":"bloodshoot"
+    },
+    "daLiJeIzasao":false
+    },
+    {
+        "id":2,
+        "naziv":"Salesman",
+        "videoSrc":"https://www.youtube.com/embed/r-61yYjKHHc",
+        "trajanje": 125,
+        "zanr":{
+            "id":1,
+            "naziv":"Drama"
+        },
+        "godinaIzlaska":"2016",
+        "drzava":"Iran",
+        "opis":"While both participating in a production of 'Death of a Salesman' a teacher's wife is assaulted in her new home, which leaves him determined to find the perpetrator over his wife's traumatized objections.",
+        "cena":"20.00",
+        "brojZvezdica":3,
+        "slika":
+        {
+            "naziv":"salesman.jpg",
+            "alt":"salesman"
+        },
+        "daLiJeIzasao":true
+    },
+    {
+        "id":3,
+        "naziv":"Apollo 11",
+        "videoSrc":"https://www.youtube.com/embed/eb_qTKXmc34",
+        "trajanje": 114,
+        "zanr":{
+            "id":2,
+            "naziv":"Documentary"
+        },
+        "godinaIzlaska":"2019",
+        "drzava":"Canada",
+        "opis":"A look at the Apollo 11 mission to land on the moon led by commander Neil Armstrong and pilots Buzz Aldrin and Michael Collins.",
+        "cena":"28.00",
+        "brojZvezdica":5,
+        "slika":
+        {
+            "naziv":"apolo11.jpg",
+            "alt":"apolo11"
+        },
+        "daLiJeIzasao":true
+    },
+    {
+        "id":4,
+        "naziv":"Toy Story 4",
+        "videoSrc":"https://www.youtube.com/embed/wmiIUN-7qhE",
+        "trajanje": 122,
+        "zanr":{
+            "id":3,
+            "naziv":"Animation"
+        },
+        "godinaIzlaska":"2019",
+        "drzava":"USA",
+        "opis":"When a new toy called 'Forky' joins Woody and the gang, a road trip alongside old and new friends reveals how big the world can be for a toy.",
+        "cena":"29.00",
+        "brojZvezdica":4,
+        "slika":
+        {
+            "naziv":"toyStory.jpg",
+            "alt":"toy story 4"
+        },
+        "daLiJeIzasao":true
+    },
+    {
+        "id":5,
+        "naziv":"Joker",
+        "videoSrc":"https://www.youtube.com/embed/-_DJEzZk2pc",
+        "trajanje": 113,
+        "zanr":{
+            "id":1,
+            "naziv":"Drama"
+        },
+        "godinaIzlaska":"2019",
+        "drzava":"USA",
+        "opis":"In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker.",
+        "cena":"30.00",
+        "brojZvezdica":5,
+        "slika":
+        {
+            "naziv":"joker.jpg",
+            "alt":"joker"
+        },
+        "daLiJeIzasao":true
+    },
+    {
+        "id":6,
+        "naziv":"Sonic the Hedgehog",
+        "videoSrc":"https://www.youtube.com/embed/4mW9FE5ILJs",
+        "trajanje": 135,
+        "zanr":{
+            "id":4,
+            "naziv":"Action"
+        },
+        "godinaIzlaska":"2020",
+        "drzava":"USA",
+        "opis":"After discovering a small, blue, fast hedgehog, a small-town police officer must help it defeat an evil genius who wants to do experiments on it.",
+        "cena":"29.00",
+        "brojZvezdica":3,
+        "slika":
+        {
+            "naziv":"sonic.jpg",
+            "alt":"sonic"
+        },
+        "daLiJeIzasao":true
+    },
+    {
+        "id":7,
+        "naziv":"My Spy",
+        "videoSrc":"https://www.youtube.com/embed/pfAhQSz-j_o",
+        "trajanje": 123,
+        "zanr":{
+            "id":5,
+            "naziv":"Action"
+        },
+        "godinaIzlaska":"2020",
+        "drzava":"USA",
+        "opis":"A hardened CIA operative finds himself at the mercy of a precocious 9-year-old girl, having been sent undercover to surveil her family.",
+        "cena":"29.00",
+        "brojZvezdica":0,
+        "slika":
+        {
+            "naziv":"spy.jpg",
+            "alt":"spy"
+        },
+        "daLiJeIzasao":false
+    },
+    {
+        "id":8,
+        "naziv":"Ant-Man and The Wasp",
+        "videoSrc":"https://www.youtube.com/embed/UUkn-enk2RU",
+        "trajanje": 130,
+        "zanr":{
+            "id":4,
+            "naziv":"Action"
+        },
+        "godinaIzlaska":"2018",
+        "drzava":"USA",
+        "opis":"As Scott Lang balances being both a superhero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.",
+        "cena":"29.00",
+        "brojZvezdica":4,
+        "slika":
+        {
+            "naziv":"ant.jpg",
+            "alt":"ant"
+        },
+        "daLiJeIzasao":true
+    }
+]
